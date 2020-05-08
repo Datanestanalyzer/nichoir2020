@@ -24,7 +24,7 @@ Follow one of the next tutorials to install the ESP32 add-on, if you haven’t a
  * Windows instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
  * Mac and Linux instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/
 
-Before uploading the code, you need to insert your network credentials in the following variables: 
+Before uploading the code, you need to insert your network credentials in the following variables:
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 

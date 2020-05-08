@@ -21,8 +21,8 @@ This repository hosts the code wich allow to take a photo, weight and measure te
 ## Setup
 We use Arduino IDE to program the ESP32-CAM board. So, you need to have Arduino IDE installed as well as the ESP32 add-on. 
 Follow one of the next tutorials to install the ESP32 add-on, if you haven’t already:
- *Windows instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
- *Mac and Linux instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/
+ * Windows instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+ * Mac and Linux instructions : https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/
 
 Before uploading the code, you need to insert your network credentials in the following variables: 
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
@@ -48,11 +48,11 @@ Finally, you should disconnet the GPIO 0 to GND and restart the ESP32-CAM by pre
 Project is: _in progress_
 
 ## Inspiration
-*https://randomnerdtutorials.com/esp32-cam-take-photo-save-microsd-card/
-*https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/
-*https://github.com/bogde/HX711/tree/master/examples
-*https://www.hivemq.com/blog/mqtt-client-library-encyclopedia-arduino-pubsubclient/
-*https://github.com/rodan/ds3231
+* https://randomnerdtutorials.com/esp32-cam-take-photo-save-microsd-card/
+* https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/
+* https://github.com/bogde/HX711/tree/master/examples
+* https://www.hivemq.com/blog/mqtt-client-library-encyclopedia-arduino-pubsubclient/
+* https://github.com/rodan/ds3231
 
 
 ## Contact

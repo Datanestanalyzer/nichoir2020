@@ -56,4 +56,4 @@ Project is: _in progress_
 
 
 ## Contact
-Created by ELGHAZOUANI Nada and ABDOUN Abderrahman for [@polytech mons](https://web.umons.ac.be/fpms/fr/) - feel free to contact us on datanestanalyzerDNA@gmail.com !
+Created by ELGHAZOUANI Nada and ABDOUN Abderrahmen for [@polytech mons](https://web.umons.ac.be/fpms/fr/) - feel free to contact us on datanestanalyzerDNA@gmail.com !

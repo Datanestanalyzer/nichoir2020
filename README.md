@@ -12,8 +12,6 @@
 
 ## Description
 This repository hosts the code wich allow to take a photo, weight and measure temperature and relative humidity of the inside of the nest at a predefined time. All these data is saved into microSD card. Moreover, the data is sent to a webserver. We use two methods : http and MQTT. The photo is sent using http and the other data is sent using MQTT. Finally, when all of this is done correctly, we put the ESP32-CAM into deep sleep and wake it up at the predefined time.
-## Screenshots
-![Example screenshot](./img/screenshot.png)
 
 ## Technologies
 * ARDUINO 1.8.12

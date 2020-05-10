@@ -1,5 +1,5 @@
 //insert time to take a photo and collect data
-const char *temps = "16:00:00";
+const char *temps = "insert_time_like_in_the_example"; // example 16:00:00
 
 // WiFi details
 const char* ssid = "REPLACE_WITH_YOUR_SSID"; 
@@ -324,7 +324,7 @@ void setup() {
   //get the right date via getdt
   getdt(currTime, month, day, year, clock_time);
   laDate =  String(RightMonth(month) + ' ' + day + ' ' + year);
-  datepublish = String(day + '-' + month + '-' + year);
+  datepublish = String(month + '-' + day + '-' + year);
 
   //--------DHT-----
   //Initialize the DHT sensor with the .begin() method.

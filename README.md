@@ -3,7 +3,6 @@
 
 ## Table of contents
 * [Description](#Description)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)

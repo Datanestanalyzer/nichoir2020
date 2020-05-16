@@ -51,6 +51,7 @@ Project is: _in progress_
 * https://github.com/bogde/HX711/tree/master/examples
 * https://www.hivemq.com/blog/mqtt-client-library-encyclopedia-arduino-pubsubclient/
 * https://github.com/rodan/ds3231
+* https://robotzero.one/time-lapse-esp32-cameras/
 
 
 ## Contact

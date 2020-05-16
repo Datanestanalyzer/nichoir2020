@@ -172,7 +172,7 @@ bool RTC_Valid() {
 }
 
 //--------publish--mqtt-------
-void reconnect(String DateTemerature, String DateHumidity, String DateMasse ) {
+void reconnect(String DateTemperature, String DateHumidity, String DateMasse ) {
   // Loop until we're reconnected
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
@@ -184,7 +184,7 @@ void reconnect(String DateTemerature, String DateHumidity, String DateMasse ) {
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
       // Once connected, publish an announcement...
-      client.publish("esp32/Temperaturedatanestanalyzer2020", DateTemerature.c_str());
+      client.publish("esp32/Temperaturedatanestanalyzer2020", DateTemperature.c_str());
       client.publish("esp32/Huimiditedatanestanalyzer2020", DateHumidity.c_str());
       client.publish("esp32/Massedatanestanalyzer2020", DateMasse.c_str());
       // ... and resubscribe
@@ -340,7 +340,7 @@ void setup() {
   }
 
   message = message + String("\tHumidity: " + String(h) + " %\t Temperature: " + String (t) + " °C\t ");
-  message = message + String("taken at ") + String(laDate) + "at " + String(clock_time) ;
+  message = message + String("taken at ") + String(laDate) + " at " + String(clock_time) ;
   DateTemperature = datepublish + String(t);
   DateHumidity = datepublish + String(h);
   DateMasse = datepublish + weight;
